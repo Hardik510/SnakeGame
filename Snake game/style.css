@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    min-height: 100vh;
+    min-width: 100vw;
+    background: linear-gradient(rgb(185, 246, 185),rgb(229, 229, 130)) ;
+    justify-content: center;
+    align-items: center;
+    border: solid black 2px;
+    display: grid;
+    grid-template-rows: repeat(18,1fr);
+    grid-template-columns: repeat(18,1fr);
+}
+
+.head{
+    background-color: red;
+}
+.food{
+    background-color: purple;
+}
